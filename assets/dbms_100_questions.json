@@ -1,0 +1,502 @@
+[
+  {
+    "category": "dbms",
+    "question": "What is a DBMS?",
+    "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the advantages of a DBMS?",
+    "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the difference between a DBMS and a file system?",
+    "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a database?",
+    "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+  },
+  {
+    "category": "dbms",
+    "question": "What is metadata?",
+    "answer": "Metadata is data that describes the structure, properties, and characteristics of other data."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a schema?",
+    "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an instance in DBMS?",
+    "answer": "An instance is the actual data stored in the database at a specific point in time."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the three-schema architecture?",
+    "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
+  },
+  {
+    "category": "dbms",
+    "question": "What is data independence?",
+    "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+  },
+  {
+    "category": "dbms",
+    "question": "What is logical data independence?",
+    "answer": "Logical data independence is the ability to modify the conceptual schema without affecting external schemas."
+  },
+  {
+    "category": "dbms",
+    "question": "What is physical data independence?",
+    "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a data model?",
+    "answer": "A data model defines how data is structured, stored, and related within a database."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the main types of data models?",
+    "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the relational model?",
+    "answer": "The relational model organizes data into tables consisting of rows and columns."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a relation in the relational model?",
+    "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a tuple?",
+    "answer": "A tuple is a single row in a relational table representing one record."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an attribute?",
+    "answer": "An attribute is a column in a table that represents a property of an entity."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a domain?",
+    "answer": "A domain is the set of permissible values that an attribute can hold."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an Entity-Relationship (ER) model?",
+    "answer": "The ER model is a conceptual modeling technique used to represent entities, attributes, and relationships."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an entity?",
+    "answer": "An entity is a real-world object or concept that can be uniquely identified and stored in a database."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an entity set?",
+    "answer": "An entity set is a collection of similar entities sharing the same attributes."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an attribute in an ER model?",
+    "answer": "An attribute is a property or characteristic that describes an entity."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a relationship in an ER model?",
+    "answer": "A relationship represents an association between two or more entities."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the common types of relationships in DBMS?",
+    "answer": "One-to-One, One-to-Many, Many-to-One, and Many-to-Many."
+  },
+  {
+    "category": "dbms",
+    "question": "What is cardinality in an ER model?",
+    "answer": "Cardinality specifies the number of entities that can participate in a relationship."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a key in DBMS?",
+    "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a super key?",
+    "answer": "A super key is a set of one or more attributes that can uniquely identify a tuple in a relation."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a candidate key?",
+    "answer": "A candidate key is a minimal super key with no redundant attributes."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a primary key?",
+    "answer": "A primary key is the candidate key chosen to uniquely identify each row in a table."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an alternate key?",
+    "answer": "An alternate key is a candidate key that is not selected as the primary key."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a foreign key?",
+    "answer": "A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a composite key?",
+    "answer": "A composite key is a key formed by combining two or more attributes."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a surrogate key?",
+    "answer": "A surrogate key is an artificial key generated by the system with no business meaning."
+  },
+  {
+    "category": "dbms",
+    "question": "What is referential integrity?",
+    "answer": "Referential integrity ensures that foreign key values always reference valid rows in the parent table."
+  },
+  {
+    "category": "dbms",
+    "question": "What is entity integrity?",
+    "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a database constraint?",
+    "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a NOT NULL constraint?",
+    "answer": "A NOT NULL constraint ensures that a column cannot contain NULL values."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a UNIQUE constraint?",
+    "answer": "A UNIQUE constraint ensures that all values in a column are distinct."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a CHECK constraint?",
+    "answer": "A CHECK constraint restricts values in a column based on a specified condition."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a DEFAULT constraint?",
+    "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
+  },
+  {
+    "category": "dbms",
+    "question": "What is participation constraint in an ER model?",
+    "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+  },
+  {
+    "category": "dbms",
+    "question": "What is total participation?",
+    "answer": "Total participation means every entity must participate in at least one relationship instance."
+  },
+  {
+    "category": "dbms",
+    "question": "What is partial participation?",
+    "answer": "Partial participation means some entities may exist without participating in the relationship."
+  },
+  {
+    "category": "dbms",
+    "question": "What is specialization in ER modeling?",
+    "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
+  },
+  {
+    "category": "dbms",
+    "question": "What is generalization in ER modeling?",
+    "answer": "Generalization is the process of combining similar entities into a higher-level entity."
+  },
+  {
+    "category": "dbms",
+    "question": "What is relational algebra?",
+    "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the SELECT operation in relational algebra?",
+    "answer": "SELECT retrieves rows from a relation that satisfy a specified condition."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the PROJECT operation in relational algebra?",
+    "answer": "PROJECT retrieves specific columns from a relation."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the JOIN operation in relational algebra?",
+    "answer": "JOIN combines tuples from two relations based on a related attribute."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
+    "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a functional dependency?",
+    "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a trivial functional dependency?",
+    "answer": "A functional dependency is trivial if the dependent attribute is a subset of the determinant attribute."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a non-trivial functional dependency?",
+    "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a fully functional dependency?",
+    "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a transitive dependency?",
+    "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+  },
+  {
+    "category": "dbms",
+    "question": "What are Armstrong's Axioms?",
+    "answer": "Armstrong's Axioms are a set of inference rules used to derive all functional dependencies from a given set of dependencies."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Reflexivity Rule in Armstrong's Axioms?",
+    "answer": "If Y is a subset of X, then X determines Y."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+    "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Transitivity Rule in Armstrong's Axioms?",
+    "answer": "If X determines Y and Y determines Z, then X determines Z."
+  },
+  {
+    "category": "dbms",
+    "question": "What is normalization?",
+    "answer": "Normalization is the process of organizing database tables to reduce redundancy and improve data integrity."
+  },
+  {
+    "category": "dbms",
+    "question": "Why is normalization important?",
+    "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the First Normal Form (1NF)?",
+    "answer": "A relation is in 1NF if all attributes contain atomic values and there are no repeating groups."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Second Normal Form (2NF)?",
+    "answer": "A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Third Normal Form (3NF)?",
+    "answer": "A relation is in 3NF and contains no transitive dependencies."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Boyce-Codd Normal Form (BCNF)?",
+    "answer": "A relation is in BCNF if every determinant is a candidate key."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the difference between 3NF and BCNF?",
+    "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Fourth Normal Form (4NF)?",
+    "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
+  },
+  {
+    "category": "dbms",
+    "question": "What is the Fifth Normal Form (5NF)?",
+    "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
+  },
+  {
+    "category": "dbms",
+    "question": "What are insertion anomalies?",
+    "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
+  },
+  {
+    "category": "dbms",
+    "question": "What are update anomalies?",
+    "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
+  },
+  {
+    "category": "dbms",
+    "question": "What are deletion anomalies?",
+    "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
+  },
+  {
+    "category": "dbms",
+    "question": "What is denormalization?",
+    "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
+  },
+  {
+    "category": "dbms",
+    "question": "When should denormalization be used?",
+    "answer": "When read performance is more critical than storage efficiency and data redundancy."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the advantages of normalization?",
+    "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the disadvantages of excessive normalization?",
+    "answer": "Excessive normalization can increase the number of joins required, potentially reducing query performance."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a transaction in DBMS?",
+    "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
+  },
+  {
+    "category": "dbms",
+    "question": "What are the ACID properties of a transaction?",
+    "answer": "Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Atomicity?",
+    "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Consistency in ACID?",
+    "answer": "Consistency ensures that a transaction brings the database from one valid state to another valid state."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Isolation in ACID?",
+    "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Durability in ACID?",
+    "answer": "Durability guarantees that committed transactions remain permanent even after system failures."
+  },
+  {
+    "category": "dbms",
+    "question": "What is concurrency control?",
+    "answer": "Concurrency control is the process of managing simultaneous transactions to maintain data consistency."
+  },
+  {
+    "category": "dbms",
+    "question": "What is serial execution of transactions?",
+    "answer": "Serial execution runs transactions one after another without overlapping."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a schedule in DBMS?",
+    "answer": "A schedule is the sequence in which operations of multiple transactions are executed."
+  },
+  {
+    "category": "dbms",
+    "question": "What is serializability?",
+    "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
+  },
+  {
+    "category": "dbms",
+    "question": "What is conflict serializability?",
+    "answer": "Conflict serializability determines whether a schedule can be transformed into a serial schedule by swapping non-conflicting operations."
+  },
+  {
+    "category": "dbms",
+    "question": "What is view serializability?",
+    "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a lock in DBMS?",
+    "answer": "A lock is a mechanism used to control concurrent access to data items."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a shared lock?",
+    "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an exclusive lock?",
+    "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Two-Phase Locking (2PL)?",
+    "answer": "Two-Phase Locking is a concurrency control protocol consisting of a growing phase and a shrinking phase."
+  },
+  {
+    "category": "dbms",
+    "question": "What is Strict Two-Phase Locking?",
+    "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a deadlock in DBMS?",
+    "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
+  },
+  {
+    "category": "dbms",
+    "question": "How can deadlocks be handled in DBMS?",
+    "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+  },
+  {
+    "category": "dbms",
+    "question": "What is an index in DBMS?",
+    "answer": "An index is a data structure that improves the speed of data retrieval operations."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a clustered index?",
+    "answer": "A clustered index determines the physical order of data rows in a table."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a non-clustered index?",
+    "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a B-Tree?",
+    "answer": "A B-Tree is a balanced tree data structure used for efficient indexing and searching in databases."
+  },
+  {
+    "category": "dbms",
+    "question": "What is a B+ Tree?",
+    "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
+  },
+  {
+    "category": "dbms",
+    "question": "Why are B+ Trees preferred over B-Trees in databases?",
+    "answer": "B+ Trees provide faster range queries, better disk access patterns, and higher fan-out than B-Trees."
+  }
+]

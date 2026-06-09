@@ -1,0 +1,502 @@
+[
+  {
+    "category": "os",
+    "question": "What is an Operating System?",
+    "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
+  },
+  {
+    "category": "os",
+    "question": "What are the primary functions of an Operating System?",
+    "answer": "Process management, memory management, file management, device management, security, and resource allocation."
+  },
+  {
+    "category": "os",
+    "question": "What is a kernel?",
+    "answer": "The kernel is the core component of an operating system that manages hardware resources and system operations."
+  },
+  {
+    "category": "os",
+    "question": "What is the difference between user mode and kernel mode?",
+    "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
+  },
+  {
+    "category": "os",
+    "question": "What is a system call?",
+    "answer": "A system call is a mechanism through which a user program requests services from the operating system kernel."
+  },
+  {
+    "category": "os",
+    "question": "Why are system calls needed?",
+    "answer": "System calls provide a safe interface for applications to access hardware and operating system services."
+  },
+  {
+    "category": "os",
+    "question": "What is a process?",
+    "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
+  },
+  {
+    "category": "os",
+    "question": "What is a Process Control Block (PCB)?",
+    "answer": "A PCB is a data structure maintained by the operating system that stores information about a process."
+  },
+  {
+    "category": "os",
+    "question": "What information is stored in a PCB?",
+    "answer": "Process ID, process state, program counter, CPU registers, scheduling information, and memory management details."
+  },
+  {
+    "category": "os",
+    "question": "What are the different states of a process?",
+    "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
+  },
+  {
+    "category": "os",
+    "question": "What is process scheduling?",
+    "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
+  },
+  {
+    "category": "os",
+    "question": "What is a scheduler?",
+    "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
+  },
+  {
+    "category": "os",
+    "question": "What is a long-term scheduler?",
+    "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
+  },
+  {
+    "category": "os",
+    "question": "What is a short-term scheduler?",
+    "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
+  },
+  {
+    "category": "os",
+    "question": "What is a medium-term scheduler?",
+    "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+  },
+  {
+    "category": "os",
+    "question": "What is context switching?",
+    "answer": "Context switching is the process of saving the state of one process and restoring the state of another process."
+  },
+  {
+    "category": "os",
+    "question": "Why is context switching considered overhead?",
+    "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
+  },
+  {
+    "category": "os",
+    "question": "What is a thread?",
+    "answer": "A thread is the smallest unit of CPU execution within a process."
+  },
+  {
+    "category": "os",
+    "question": "What is the difference between a process and a thread?",
+    "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
+  },
+  {
+    "category": "os",
+    "question": "What are the advantages of multithreading?",
+    "answer": "Improved responsiveness, better resource utilization, faster context switching, and increased parallelism."
+  },
+  {
+    "category": "os",
+    "question": "What is a user-level thread?",
+    "answer": "A user-level thread is managed by a thread library without direct kernel involvement."
+  },
+  {
+    "category": "os",
+    "question": "What is a kernel-level thread?",
+    "answer": "A kernel-level thread is managed directly by the operating system kernel."
+  },
+  {
+    "category": "os",
+    "question": "What is multitasking?",
+    "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
+  },
+  {
+    "category": "os",
+    "question": "What is multiprocessing?",
+    "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+  },
+  {
+    "category": "os",
+    "question": "What is multiprogramming?",
+    "answer": "Multiprogramming is a technique where multiple programs are kept in memory so the CPU can switch among them efficiently."
+  },
+  {
+    "category": "os",
+    "question": "What is CPU scheduling?",
+    "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+  },
+  {
+    "category": "os",
+    "question": "What are the goals of CPU scheduling?",
+    "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+  },
+  {
+    "category": "os",
+    "question": "What is throughput?",
+    "answer": "Throughput is the number of processes completed by the system per unit time."
+  },
+  {
+    "category": "os",
+    "question": "What is turnaround time?",
+    "answer": "Turnaround time is the total time taken from process submission to process completion."
+  },
+  {
+    "category": "os",
+    "question": "What is waiting time?",
+    "answer": "Waiting time is the total time a process spends waiting in the ready queue."
+  },
+  {
+    "category": "os",
+    "question": "What is response time?",
+    "answer": "Response time is the time between submitting a request and receiving the first response."
+  },
+  {
+    "category": "os",
+    "question": "What is First Come First Serve (FCFS) scheduling?",
+    "answer": "FCFS is a non-preemptive scheduling algorithm in which processes are executed in the order they arrive."
+  },
+  {
+    "category": "os",
+    "question": "What is the main disadvantage of FCFS scheduling?",
+    "answer": "FCFS suffers from the convoy effect, where short processes wait behind long processes."
+  },
+  {
+    "category": "os",
+    "question": "What is Shortest Job First (SJF) scheduling?",
+    "answer": "SJF selects the process with the smallest CPU burst time for execution."
+  },
+  {
+    "category": "os",
+    "question": "Why is SJF considered optimal?",
+    "answer": "SJF minimizes average waiting time among all scheduling algorithms when burst times are known."
+  },
+  {
+    "category": "os",
+    "question": "What is Shortest Remaining Time First (SRTF)?",
+    "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+  },
+  {
+    "category": "os",
+    "question": "What is Priority Scheduling?",
+    "answer": "Priority Scheduling executes processes based on their assigned priority values."
+  },
+  {
+    "category": "os",
+    "question": "What is starvation in Priority Scheduling?",
+    "answer": "Starvation occurs when low-priority processes wait indefinitely because higher-priority processes keep arriving."
+  },
+  {
+    "category": "os",
+    "question": "What is aging in operating systems?",
+    "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
+  },
+  {
+    "category": "os",
+    "question": "What is Round Robin Scheduling?",
+    "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
+  },
+  {
+    "category": "os",
+    "question": "What is a time quantum?",
+    "answer": "A time quantum is the maximum CPU time allocated to a process before it is preempted."
+  },
+  {
+    "category": "os",
+    "question": "What happens if the time quantum is too small?",
+    "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
+  },
+  {
+    "category": "os",
+    "question": "What happens if the time quantum is too large?",
+    "answer": "Round Robin behaves similarly to FCFS scheduling."
+  },
+  {
+    "category": "os",
+    "question": "What is Multilevel Queue Scheduling?",
+    "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
+  },
+  {
+    "category": "os",
+    "question": "What is Multilevel Feedback Queue Scheduling?",
+    "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
+  },
+  {
+    "category": "os",
+    "question": "What is preemptive scheduling?",
+    "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
+  },
+  {
+    "category": "os",
+    "question": "What is non-preemptive scheduling?",
+    "answer": "Non-preemptive scheduling allows a process to keep the CPU until it voluntarily releases it or terminates."
+  },
+  {
+    "category": "os",
+    "question": "What is real-time scheduling?",
+    "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
+  },
+  {
+    "category": "os",
+    "question": "What is a hard real-time system?",
+    "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
+  },
+  {
+    "category": "os",
+    "question": "What is a soft real-time system?",
+    "answer": "A soft real-time system aims to meet deadlines, but occasional misses are tolerable."
+  },
+  {
+    "category": "os",
+    "question": "What is process synchronization?",
+    "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+  },
+  {
+    "category": "os",
+    "question": "What is a critical section?",
+    "answer": "A critical section is a part of a program where shared resources are accessed and must not be executed by multiple threads simultaneously."
+  },
+  {
+    "category": "os",
+    "question": "What are the requirements of the critical section problem?",
+    "answer": "Mutual exclusion, progress, and bounded waiting."
+  },
+  {
+    "category": "os",
+    "question": "What is mutual exclusion?",
+    "answer": "Mutual exclusion ensures that only one process or thread can execute its critical section at a time."
+  },
+  {
+    "category": "os",
+    "question": "What is a race condition?",
+    "answer": "A race condition occurs when multiple threads access shared data concurrently and the final result depends on the execution order."
+  },
+  {
+    "category": "os",
+    "question": "What is busy waiting?",
+    "answer": "Busy waiting occurs when a process continuously checks for a condition instead of sleeping or yielding the CPU."
+  },
+  {
+    "category": "os",
+    "question": "What is a mutex?",
+    "answer": "A mutex is a synchronization mechanism that allows only one thread to access a critical section at a time."
+  },
+  {
+    "category": "os",
+    "question": "What is a semaphore?",
+    "answer": "A semaphore is a synchronization primitive used to control access to shared resources using a counter."
+  },
+  {
+    "category": "os",
+    "question": "What are the two types of semaphores?",
+    "answer": "Binary semaphores and counting semaphores."
+  },
+  {
+    "category": "os",
+    "question": "What is a binary semaphore?",
+    "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
+  },
+  {
+    "category": "os",
+    "question": "What is a counting semaphore?",
+    "answer": "A counting semaphore can take multiple values and is used to manage access to multiple instances of a resource."
+  },
+  {
+    "category": "os",
+    "question": "What is the difference between a mutex and a semaphore?",
+    "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+  },
+  {
+    "category": "os",
+    "question": "What is a monitor?",
+    "answer": "A monitor is a high-level synchronization construct that provides mutual exclusion and condition variables."
+  },
+  {
+    "category": "os",
+    "question": "What is a condition variable?",
+    "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+  },
+  {
+    "category": "os",
+    "question": "What is the Producer-Consumer problem?",
+    "answer": "The Producer-Consumer problem is a synchronization problem where producers generate data and consumers consume it from a shared buffer."
+  },
+  {
+    "category": "os",
+    "question": "What is the Readers-Writers problem?",
+    "answer": "The Readers-Writers problem deals with synchronizing access to shared data when multiple readers and writers are present."
+  },
+  {
+    "category": "os",
+    "question": "What is the Dining Philosophers problem?",
+    "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+  },
+  {
+    "category": "os",
+    "question": "What is a deadlock?",
+    "answer": "A deadlock occurs when a set of processes are permanently blocked because each is waiting for a resource held by another process."
+  },
+  {
+    "category": "os",
+    "question": "What are the four necessary conditions for deadlock?",
+    "answer": "Mutual exclusion, hold and wait, no preemption, and circular wait."
+  },
+  {
+    "category": "os",
+    "question": "What is deadlock prevention?",
+    "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+  },
+  {
+    "category": "os",
+    "question": "What is deadlock avoidance?",
+    "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
+  },
+  {
+    "category": "os",
+    "question": "What is the Banker's Algorithm?",
+    "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
+  },
+  {
+    "category": "os",
+    "question": "What is deadlock detection?",
+    "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
+  },
+  {
+    "category": "os",
+    "question": "What is deadlock recovery?",
+    "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
+  },
+  {
+    "category": "os",
+    "question": "What is starvation in synchronization?",
+    "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
+  },
+  {
+    "category": "os",
+    "question": "What is memory management?",
+    "answer": "Memory management is the operating system function responsible for allocating, tracking, and deallocating memory resources."
+  },
+  {
+    "category": "os",
+    "question": "What is contiguous memory allocation?",
+    "answer": "Contiguous memory allocation assigns a single continuous block of memory to a process."
+  },
+  {
+    "category": "os",
+    "question": "What is fragmentation?",
+    "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
+  },
+  {
+    "category": "os",
+    "question": "What is internal fragmentation?",
+    "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
+  },
+  {
+    "category": "os",
+    "question": "What is external fragmentation?",
+    "answer": "External fragmentation occurs when free memory is split into small non-contiguous blocks."
+  },
+  {
+    "category": "os",
+    "question": "What is paging?",
+    "answer": "Paging is a memory management technique that divides memory into fixed-size pages and frames."
+  },
+  {
+    "category": "os",
+    "question": "What is a page?",
+    "answer": "A page is a fixed-size block of logical memory used in paging systems."
+  },
+  {
+    "category": "os",
+    "question": "What is a frame?",
+    "answer": "A frame is a fixed-size block of physical memory that stores pages."
+  },
+  {
+    "category": "os",
+    "question": "What is a page table?",
+    "answer": "A page table maps virtual memory pages to physical memory frames."
+  },
+  {
+    "category": "os",
+    "question": "What is segmentation?",
+    "answer": "Segmentation is a memory management technique that divides memory into variable-sized logical segments."
+  },
+  {
+    "category": "os",
+    "question": "What is the difference between paging and segmentation?",
+    "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
+  },
+  {
+    "category": "os",
+    "question": "What is virtual memory?",
+    "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
+  },
+  {
+    "category": "os",
+    "question": "What is demand paging?",
+    "answer": "Demand paging loads pages into memory only when they are required by a process."
+  },
+  {
+    "category": "os",
+    "question": "What is a page fault?",
+    "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+  },
+  {
+    "category": "os",
+    "question": "What is page replacement?",
+    "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
+  },
+  {
+    "category": "os",
+    "question": "What is the FIFO page replacement algorithm?",
+    "answer": "FIFO replaces the page that has been in memory the longest."
+  },
+  {
+    "category": "os",
+    "question": "What is the LRU page replacement algorithm?",
+    "answer": "LRU replaces the page that has not been used for the longest period of time."
+  },
+  {
+    "category": "os",
+    "question": "What is the Optimal page replacement algorithm?",
+    "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
+  },
+  {
+    "category": "os",
+    "question": "What is thrashing?",
+    "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
+  },
+  {
+    "category": "os",
+    "question": "What is a file system?",
+    "answer": "A file system is the method and data structure used by an operating system to organize and manage files on storage devices."
+  },
+  {
+    "category": "os",
+    "question": "What is a file descriptor?",
+    "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
+  },
+  {
+    "category": "os",
+    "question": "What is disk scheduling?",
+    "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
+  },
+  {
+    "category": "os",
+    "question": "What are common disk scheduling algorithms?",
+    "answer": "FCFS, SSTF, SCAN, C-SCAN, LOOK, and C-LOOK."
+  },
+  {
+    "category": "os",
+    "question": "What is RAID?",
+    "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
+  },
+  {
+    "category": "os",
+    "question": "What are the advantages of virtual memory?",
+    "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
+  }
+]

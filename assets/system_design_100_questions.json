@@ -1,0 +1,502 @@
+[
+  {
+    "category": "system_design",
+    "question": "What is System Design?",
+    "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
+  },
+  {
+    "category": "system_design",
+    "question": "What is scalability?",
+    "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+  },
+  {
+    "category": "system_design",
+    "question": "What is horizontal scaling?",
+    "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+  },
+  {
+    "category": "system_design",
+    "question": "What is vertical scaling?",
+    "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the difference between horizontal and vertical scaling?",
+    "answer": "Horizontal scaling adds more machines, whereas vertical scaling upgrades a single machine's capacity."
+  },
+  {
+    "category": "system_design",
+    "question": "What is availability?",
+    "answer": "Availability is the percentage of time a system remains operational and accessible."
+  },
+  {
+    "category": "system_design",
+    "question": "What is reliability?",
+    "answer": "Reliability is the ability of a system to consistently perform its intended function without failure."
+  },
+  {
+    "category": "system_design",
+    "question": "What is fault tolerance?",
+    "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+  },
+  {
+    "category": "system_design",
+    "question": "What is redundancy?",
+    "answer": "Redundancy is the duplication of critical components to improve availability and fault tolerance."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a load balancer?",
+    "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
+  },
+  {
+    "category": "system_design",
+    "question": "Why are load balancers used?",
+    "answer": "Load balancers prevent server overload, improve fault tolerance, and increase system availability."
+  },
+  {
+    "category": "system_design",
+    "question": "What are common load balancing algorithms?",
+    "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
+  },
+  {
+    "category": "system_design",
+    "question": "What is latency?",
+    "answer": "Latency is the time taken for a request to travel from a client to a server and back."
+  },
+  {
+    "category": "system_design",
+    "question": "What is throughput?",
+    "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a bottleneck in a system?",
+    "answer": "A bottleneck is a component that limits the overall performance or capacity of a system."
+  },
+  {
+    "category": "system_design",
+    "question": "What is caching?",
+    "answer": "Caching is the practice of storing frequently accessed data in a faster storage layer to reduce access time."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is caching used?",
+    "answer": "Caching reduces latency, decreases database load, and improves application performance."
+  },
+  {
+    "category": "system_design",
+    "question": "What are common caching layers?",
+    "answer": "Browser cache, CDN cache, application cache, and database cache."
+  },
+  {
+    "category": "system_design",
+    "question": "What is cache eviction?",
+    "answer": "Cache eviction is the process of removing items from a cache when space is needed."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the LRU cache policy?",
+    "answer": "Least Recently Used (LRU) removes the item that has not been accessed for the longest time."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a CDN?",
+    "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
+  },
+  {
+    "category": "system_design",
+    "question": "Why are CDNs used?",
+    "answer": "CDNs reduce latency, improve content delivery speed, and decrease load on origin servers."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a reverse proxy?",
+    "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a web server?",
+    "answer": "A web server handles HTTP requests and serves web content to clients."
+  },
+  {
+    "category": "system_design",
+    "question": "What is an application server?",
+    "answer": "An application server executes business logic and processes application requests."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a database in system design?",
+    "answer": "A database is a structured system used to store, retrieve, and manage application data."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "answer": "SQL databases use structured schemas and relational models, whereas NoSQL databases support flexible schemas and various data models."
+  },
+  {
+    "category": "system_design",
+    "question": "When should SQL databases be preferred?",
+    "answer": "SQL databases are preferred when strong consistency, structured data, and complex queries are required."
+  },
+  {
+    "category": "system_design",
+    "question": "When should NoSQL databases be preferred?",
+    "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
+  },
+  {
+    "category": "system_design",
+    "question": "What is database replication?",
+    "answer": "Database replication is the process of maintaining copies of data across multiple database servers."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is replication used?",
+    "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a primary-replica architecture?",
+    "answer": "A primary-replica architecture consists of one write node and one or more read replicas."
+  },
+  {
+    "category": "system_design",
+    "question": "What is synchronous replication?",
+    "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
+  },
+  {
+    "category": "system_design",
+    "question": "What is asynchronous replication?",
+    "answer": "Asynchronous replication allows writes to complete before replicas are updated."
+  },
+  {
+    "category": "system_design",
+    "question": "What is database sharding?",
+    "answer": "Sharding is the process of partitioning data across multiple database servers."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is sharding used?",
+    "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+  },
+  {
+    "category": "system_design",
+    "question": "What is horizontal partitioning?",
+    "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+  },
+  {
+    "category": "system_design",
+    "question": "What is vertical partitioning?",
+    "answer": "Vertical partitioning divides a table by columns and stores them separately."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a shard key?",
+    "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the challenges of sharding?",
+    "answer": "Uneven data distribution, hotspotting, rebalancing, and cross-shard queries."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the CAP Theorem?",
+    "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
+  },
+  {
+    "category": "system_design",
+    "question": "What is Consistency in CAP?",
+    "answer": "Consistency means all nodes see the same data at the same time after a write operation."
+  },
+  {
+    "category": "system_design",
+    "question": "What is Availability in CAP?",
+    "answer": "Availability means every request receives a response, even if some nodes fail."
+  },
+  {
+    "category": "system_design",
+    "question": "What is Partition Tolerance in CAP?",
+    "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
+  },
+  {
+    "category": "system_design",
+    "question": "What is an ACID transaction?",
+    "answer": "An ACID transaction guarantees Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "category": "system_design",
+    "question": "What is BASE in distributed systems?",
+    "answer": "BASE stands for Basically Available, Soft State, and Eventual Consistency."
+  },
+  {
+    "category": "system_design",
+    "question": "What is eventual consistency?",
+    "answer": "Eventual consistency guarantees that all replicas will converge to the same state if no new updates occur."
+  },
+  {
+    "category": "system_design",
+    "question": "What is strong consistency?",
+    "answer": "Strong consistency ensures every read returns the most recent write."
+  },
+  {
+    "category": "system_design",
+    "question": "What is read-through caching?",
+    "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
+  },
+  {
+    "category": "system_design",
+    "question": "What is write-through caching?",
+    "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a distributed system?",
+    "answer": "A distributed system is a collection of independent computers that work together as a single system."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the advantages of distributed systems?",
+    "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the challenges of distributed systems?",
+    "answer": "Network failures, consistency issues, latency, synchronization, and operational complexity."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a distributed cache?",
+    "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
+  },
+  {
+    "category": "system_design",
+    "question": "What is consistent hashing?",
+    "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is consistent hashing used?",
+    "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a message queue?",
+    "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
+  },
+  {
+    "category": "system_design",
+    "question": "Why are message queues used?",
+    "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+  },
+  {
+    "category": "system_design",
+    "question": "What are examples of message queue systems?",
+    "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
+  },
+  {
+    "category": "system_design",
+    "question": "What is asynchronous communication?",
+    "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+  },
+  {
+    "category": "system_design",
+    "question": "What is synchronous communication?",
+    "answer": "Synchronous communication requires a sender to wait for a response before continuing."
+  },
+  {
+    "category": "system_design",
+    "question": "What is event-driven architecture?",
+    "answer": "Event-driven architecture is a design pattern where components communicate through events."
+  },
+  {
+    "category": "system_design",
+    "question": "What is an event in event-driven architecture?",
+    "answer": "An event is a record of a significant change in system state."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a producer in a messaging system?",
+    "answer": "A producer is a component that generates and publishes messages."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a consumer in a messaging system?",
+    "answer": "A consumer is a component that receives and processes messages."
+  },
+  {
+    "category": "system_design",
+    "question": "What is Apache Kafka?",
+    "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a Kafka topic?",
+    "answer": "A Kafka topic is a logical channel where messages are stored and consumed."
+  },
+  {
+    "category": "system_design",
+    "question": "What is partitioning in Kafka?",
+    "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
+  },
+  {
+    "category": "system_design",
+    "question": "What is service discovery?",
+    "answer": "Service discovery is the process of automatically locating services within a distributed system."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is service discovery important?",
+    "answer": "It enables dynamic scaling and communication between services without hardcoded addresses."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a distributed lock?",
+    "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
+  },
+  {
+    "category": "system_design",
+    "question": "What is leader election?",
+    "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
+  },
+  {
+    "category": "system_design",
+    "question": "What is data replication in distributed systems?",
+    "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
+  },
+  {
+    "category": "system_design",
+    "question": "What is quorum-based replication?",
+    "answer": "Quorum-based replication requires a minimum number of nodes to participate in read or write operations."
+  },
+  {
+    "category": "system_design",
+    "question": "What is eventual consistency in distributed databases?",
+    "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a monolithic architecture?",
+    "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a microservices architecture?",
+    "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the advantages of microservices?",
+    "answer": "Independent deployment, scalability, fault isolation, technology flexibility, and faster development cycles."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the disadvantages of microservices?",
+    "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the difference between monolithic and microservices architectures?",
+    "answer": "Monolithic applications are deployed as a single unit, whereas microservices are independently deployable services."
+  },
+  {
+    "category": "system_design",
+    "question": "What is an API Gateway?",
+    "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is an API Gateway used?",
+    "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+  },
+  {
+    "category": "system_design",
+    "question": "What is rate limiting?",
+    "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is rate limiting important?",
+    "answer": "It prevents abuse, protects backend resources, and improves system stability."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the Token Bucket algorithm?",
+    "answer": "The Token Bucket algorithm controls request rates by allowing requests only when tokens are available in a bucket."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the Leaky Bucket algorithm?",
+    "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a Circuit Breaker pattern?",
+    "answer": "The Circuit Breaker pattern prevents repeated calls to failing services and allows systems to recover gracefully."
+  },
+  {
+    "category": "system_design",
+    "question": "What problem does the Circuit Breaker solve?",
+    "answer": "It prevents cascading failures and reduces load on unhealthy services."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a Service Mesh?",
+    "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
+  },
+  {
+    "category": "system_design",
+    "question": "What are examples of Service Mesh technologies?",
+    "answer": "Istio, Linkerd, Consul Connect, and Kuma."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a distributed transaction?",
+    "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the Saga Pattern?",
+    "answer": "The Saga Pattern manages distributed transactions using a sequence of local transactions with compensating actions."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the Database per Service pattern?",
+    "answer": "The Database per Service pattern gives each microservice ownership of its own database."
+  },
+  {
+    "category": "system_design",
+    "question": "What is idempotency?",
+    "answer": "Idempotency means repeated execution of the same operation produces the same result."
+  },
+  {
+    "category": "system_design",
+    "question": "Why is idempotency important in distributed systems?",
+    "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
+  },
+  {
+    "category": "system_design",
+    "question": "What is a URL Shortener system design problem?",
+    "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the key challenge in designing Twitter/X?",
+    "answer": "Handling massive write traffic, real-time feeds, and large-scale data distribution."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the key challenge in designing a chat application?",
+    "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
+  },
+  {
+    "category": "system_design",
+    "question": "What is the key challenge in designing a video streaming platform?",
+    "answer": "Efficient content storage, CDN distribution, transcoding, and large-scale video delivery."
+  },
+  {
+    "category": "system_design",
+    "question": "What are the most important factors evaluated in a system design interview?",
+    "answer": "Scalability, availability, reliability, consistency, performance, fault tolerance, trade-off analysis, and clear communication."
+  }
+]

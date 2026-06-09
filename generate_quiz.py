@@ -1,44 +1,51 @@
 import json
 import random
 import os
-from datetime import datetime
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
 # Paths
-BANK_PATH = "data/question_bank.json"
+QUESTION_FILES = {
+    "dbms": "assets/dbms_100_questions.json",
+    "dsa": "assets/dsa_100_questions.json",
+    "networking": "assets/networking_100_questions.json",
+    "oop": "assets/oop_100_questions.json",
+    "os": "assets/os_100_questions.json",
+    "python": "assets/python_100_questions.json",
+    "sql": "assets/sql_100_questions.json",
+    "system_design": "assets/system_design_100_questions.json",
+}
 OUTPUT_PATH = "assets/daily_questions.json"
+QUESTIONS_PER_SUBJECT = 2
+IST = timezone(timedelta(hours=5, minutes=30))
 
 def generate_daily_deck():
-    # 1. Load the master question bank
-    if not os.path.exists(BANK_PATH):
-        print(f"Error: Master question bank not found at {BANK_PATH}")
-        return
-
-    with open(BANK_PATH, 'r', encoding='utf-8') as f:
-        master_bank = json.load(f)
-
-    categories = ["system_design", "dsa", "oops", "dbms", "networking"]
     daily_deck = []
 
-    # 2. Sample 2 random questions from each category
-    for category in categories:
-        if category in master_bank and len(master_bank[category]) >= 2:
-            sampled = random.sample(master_bank[category], 2)
-            daily_deck.extend(sampled)
-        else:
-            print(f"Warning: Insufficient questions in category '{category}'")
-            # Fallback: take whatever is available
-            daily_deck.extend(master_bank.get(category, []))
+    # 1. Load each subject question file and sample a fixed number from it.
+    for category, file_path in QUESTION_FILES.items():
+        if not os.path.exists(file_path):
+            print(f"Warning: Question file not found for '{category}' at {file_path}")
+            continue
 
-    # 3. Shuffle the final 10 questions so topics are mixed up
+        with open(file_path, 'r', encoding='utf-8') as f:
+            questions = json.load(f)
+
+        if len(questions) >= QUESTIONS_PER_SUBJECT:
+            daily_deck.extend(random.sample(questions, QUESTIONS_PER_SUBJECT))
+        else:
+            print(f"Warning: Only {len(questions)} questions found in '{category}'. Using all available.")
+            daily_deck.extend(questions)
+
+    # 2. Shuffle the final deck so topics are mixed up.
     random.shuffle(daily_deck)
 
-    # 4. Meta-data for the frontend (e.g., Daily Quiz Date)
+    # 3. Meta-data for the frontend.
     quiz_data = {
-        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "date": datetime.now(IST).strftime("%Y-%m-%d"),
         "questions": daily_deck
     }
 
-    # 5. Write to the assets folder for the frontend to consume
+    # 4. Write to the assets folder for the frontend to consume.
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(quiz_data, f, indent=2, ensure_ascii=False)

@@ -1,0 +1,502 @@
+[
+  {
+    "category": "sql",
+    "question": "What is SQL?",
+    "answer": "SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases."
+  },
+  {
+    "category": "sql",
+    "question": "What are the main categories of SQL commands?",
+    "answer": "DDL, DML, DQL, DCL, and TCL."
+  },
+  {
+    "category": "sql",
+    "question": "What is DDL in SQL?",
+    "answer": "Data Definition Language (DDL) consists of commands used to define and modify database structures."
+  },
+  {
+    "category": "sql",
+    "question": "What are common DDL commands?",
+    "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+  },
+  {
+    "category": "sql",
+    "question": "What is DML in SQL?",
+    "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
+  },
+  {
+    "category": "sql",
+    "question": "What are common DML commands?",
+    "answer": "INSERT, UPDATE, DELETE, and MERGE."
+  },
+  {
+    "category": "sql",
+    "question": "What is DQL in SQL?",
+    "answer": "Data Query Language (DQL) is used to retrieve data from a database."
+  },
+  {
+    "category": "sql",
+    "question": "What is the most commonly used DQL command?",
+    "answer": "SELECT."
+  },
+  {
+    "category": "sql",
+    "question": "What is DCL in SQL?",
+    "answer": "Data Control Language (DCL) consists of commands used to control database permissions."
+  },
+  {
+    "category": "sql",
+    "question": "What are common DCL commands?",
+    "answer": "GRANT and REVOKE."
+  },
+  {
+    "category": "sql",
+    "question": "What is TCL in SQL?",
+    "answer": "Transaction Control Language (TCL) manages database transactions."
+  },
+  {
+    "category": "sql",
+    "question": "What are common TCL commands?",
+    "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
+  },
+  {
+    "category": "sql",
+    "question": "What is the CREATE statement?",
+    "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
+  },
+  {
+    "category": "sql",
+    "question": "What is the ALTER statement?",
+    "answer": "ALTER is used to modify the structure of an existing database object."
+  },
+  {
+    "category": "sql",
+    "question": "What is the DROP statement?",
+    "answer": "DROP permanently removes a database object and its associated data."
+  },
+  {
+    "category": "sql",
+    "question": "What is the TRUNCATE statement?",
+    "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+  },
+  {
+    "category": "sql",
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "answer": "DELETE removes rows one by one and can be rolled back, whereas TRUNCATE removes all rows more efficiently and often cannot be rolled back."
+  },
+  {
+    "category": "sql",
+    "question": "What is the INSERT statement?",
+    "answer": "INSERT is used to add new rows into a table."
+  },
+  {
+    "category": "sql",
+    "question": "What is the UPDATE statement?",
+    "answer": "UPDATE modifies existing records in a table."
+  },
+  {
+    "category": "sql",
+    "question": "What is the DELETE statement?",
+    "answer": "DELETE removes one or more rows from a table based on a specified condition."
+  },
+  {
+    "category": "sql",
+    "question": "What is the SELECT statement?",
+    "answer": "SELECT retrieves data from one or more tables."
+  },
+  {
+    "category": "sql",
+    "question": "What is the WHERE clause?",
+    "answer": "The WHERE clause filters rows based on specified conditions."
+  },
+  {
+    "category": "sql",
+    "question": "What is the ORDER BY clause?",
+    "answer": "ORDER BY sorts query results in ascending or descending order."
+  },
+  {
+    "category": "sql",
+    "question": "What is the GROUP BY clause?",
+    "answer": "GROUP BY groups rows with similar values into summary rows."
+  },
+  {
+    "category": "sql",
+    "question": "What is the HAVING clause?",
+    "answer": "HAVING filters grouped results after aggregation has been performed."
+  },
+  {
+    "category": "sql",
+    "question": "What is an aggregate function in SQL?",
+    "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
+  },
+  {
+    "category": "sql",
+    "question": "What are common aggregate functions in SQL?",
+    "answer": "COUNT(), SUM(), AVG(), MIN(), and MAX()."
+  },
+  {
+    "category": "sql",
+    "question": "What does COUNT() do?",
+    "answer": "COUNT() returns the number of rows matching a specified condition."
+  },
+  {
+    "category": "sql",
+    "question": "What does SUM() do?",
+    "answer": "SUM() calculates the total of numeric values in a column."
+  },
+  {
+    "category": "sql",
+    "question": "What does AVG() do?",
+    "answer": "AVG() calculates the average value of a numeric column."
+  },
+  {
+    "category": "sql",
+    "question": "What does MIN() do?",
+    "answer": "MIN() returns the smallest value in a column."
+  },
+  {
+    "category": "sql",
+    "question": "What does MAX() do?",
+    "answer": "MAX() returns the largest value in a column."
+  },
+  {
+    "category": "sql",
+    "question": "What is a JOIN in SQL?",
+    "answer": "A JOIN combines rows from two or more tables based on a related column."
+  },
+  {
+    "category": "sql",
+    "question": "What is an INNER JOIN?",
+    "answer": "INNER JOIN returns only the rows that have matching values in both tables."
+  },
+  {
+    "category": "sql",
+    "question": "What is a LEFT JOIN?",
+    "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
+  },
+  {
+    "category": "sql",
+    "question": "What is a RIGHT JOIN?",
+    "answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
+  },
+  {
+    "category": "sql",
+    "question": "What is a FULL OUTER JOIN?",
+    "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
+  },
+  {
+    "category": "sql",
+    "question": "What is a CROSS JOIN?",
+    "answer": "CROSS JOIN returns the Cartesian product of two tables."
+  },
+  {
+    "category": "sql",
+    "question": "What is a SELF JOIN?",
+    "answer": "A SELF JOIN joins a table with itself using aliases."
+  },
+  {
+    "category": "sql",
+    "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+    "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
+  },
+  {
+    "category": "sql",
+    "question": "What is UNION in SQL?",
+    "answer": "UNION combines the results of two or more SELECT statements and removes duplicates."
+  },
+  {
+    "category": "sql",
+    "question": "What is UNION ALL?",
+    "answer": "UNION ALL combines results from multiple queries without removing duplicates."
+  },
+  {
+    "category": "sql",
+    "question": "What is the difference between UNION and UNION ALL?",
+    "answer": "UNION removes duplicate rows, while UNION ALL retains them."
+  },
+  {
+    "category": "sql",
+    "question": "What is INTERSECT in SQL?",
+    "answer": "INTERSECT returns rows that are common to the results of two queries."
+  },
+  {
+    "category": "sql",
+    "question": "What is EXCEPT (or MINUS)?",
+    "answer": "EXCEPT returns rows present in the first query but not in the second query."
+  },
+  {
+    "category": "sql",
+    "question": "What is the DISTINCT keyword?",
+    "answer": "DISTINCT removes duplicate rows from query results."
+  },
+  {
+    "category": "sql",
+    "question": "What is the LIKE operator?",
+    "answer": "LIKE is used for pattern matching in string values."
+  },
+  {
+    "category": "sql",
+    "question": "What are '%' and '_' wildcards in SQL?",
+    "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+  },
+  {
+    "category": "sql",
+    "question": "What is the IN operator?",
+    "answer": "IN checks whether a value matches any value in a specified list."
+  },
+  {
+    "category": "sql",
+    "question": "What is the BETWEEN operator?",
+    "answer": "BETWEEN filters values within a specified inclusive range."
+  },
+  {
+    "category": "sql",
+    "question": "What is a subquery in SQL?",
+    "answer": "A subquery is a query nested inside another SQL query."
+  },
+  {
+    "category": "sql",
+    "question": "What is a correlated subquery?",
+    "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
+  },
+  {
+    "category": "sql",
+    "question": "What is a non-correlated subquery?",
+    "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
+  },
+  {
+    "category": "sql",
+    "question": "What is the EXISTS operator?",
+    "answer": "EXISTS checks whether a subquery returns any rows."
+  },
+  {
+    "category": "sql",
+    "question": "What is the NOT EXISTS operator?",
+    "answer": "NOT EXISTS returns true when a subquery returns no rows."
+  },
+  {
+    "category": "sql",
+    "question": "What is the ANY operator?",
+    "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
+  },
+  {
+    "category": "sql",
+    "question": "What is the ALL operator?",
+    "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
+  },
+  {
+    "category": "sql",
+    "question": "What is a view in SQL?",
+    "answer": "A view is a virtual table based on the result of a SQL query."
+  },
+  {
+    "category": "sql",
+    "question": "What are the advantages of views?",
+    "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+  },
+  {
+    "category": "sql",
+    "question": "What is a materialized view?",
+    "answer": "A materialized view stores the query result physically and can improve query performance."
+  },
+  {
+    "category": "sql",
+    "question": "What is a primary key constraint?",
+    "answer": "A primary key uniquely identifies each row in a table and cannot contain NULL values."
+  },
+  {
+    "category": "sql",
+    "question": "What is a foreign key constraint?",
+    "answer": "A foreign key enforces referential integrity by linking rows between related tables."
+  },
+  {
+    "category": "sql",
+    "question": "What is a unique constraint?",
+    "answer": "A unique constraint ensures that all values in a column are distinct."
+  },
+  {
+    "category": "sql",
+    "question": "What is an index in SQL?",
+    "answer": "An index is a database object that improves the speed of data retrieval operations."
+  },
+  {
+    "category": "sql",
+    "question": "Why are indexes used?",
+    "answer": "Indexes reduce the amount of data scanned during query execution, improving performance."
+  },
+  {
+    "category": "sql",
+    "question": "What are the disadvantages of indexes?",
+    "answer": "Indexes consume storage space and can slow down INSERT, UPDATE, and DELETE operations."
+  },
+  {
+    "category": "sql",
+    "question": "What is a clustered index?",
+    "answer": "A clustered index determines the physical order of rows in a table."
+  },
+  {
+    "category": "sql",
+    "question": "What is a non-clustered index?",
+    "answer": "A non-clustered index stores key values separately from the actual table data."
+  },
+  {
+    "category": "sql",
+    "question": "What is a composite index?",
+    "answer": "A composite index is an index built on multiple columns."
+  },
+  {
+    "category": "sql",
+    "question": "What is a covering index?",
+    "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+  },
+  {
+    "category": "sql",
+    "question": "What is normalization in SQL databases?",
+    "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
+  },
+  {
+    "category": "sql",
+    "question": "What is denormalization in SQL databases?",
+    "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+  },
+  {
+    "category": "sql",
+    "question": "What is a transaction in SQL?",
+    "answer": "A transaction is a sequence of operations executed as a single logical unit of work."
+  },
+  {
+    "category": "sql",
+    "question": "What is COMMIT?",
+    "answer": "COMMIT permanently saves all changes made during the current transaction."
+  },
+  {
+    "category": "sql",
+    "question": "What is ROLLBACK?",
+    "answer": "ROLLBACK undoes changes made during the current transaction and restores the previous state."
+  },
+  {
+    "category": "sql",
+    "question": "What is a window function in SQL?",
+    "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
+  },
+  {
+    "category": "sql",
+    "question": "What is the OVER() clause?",
+    "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+  },
+  {
+    "category": "sql",
+    "question": "What is ROW_NUMBER()?",
+    "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
+  },
+  {
+    "category": "sql",
+    "question": "What is RANK()?",
+    "answer": "RANK() assigns rankings to rows and leaves gaps in ranking when ties occur."
+  },
+  {
+    "category": "sql",
+    "question": "What is DENSE_RANK()?",
+    "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
+  },
+  {
+    "category": "sql",
+    "question": "What is the difference between RANK() and DENSE_RANK()?",
+    "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+  },
+  {
+    "category": "sql",
+    "question": "What is NTILE()?",
+    "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
+  },
+  {
+    "category": "sql",
+    "question": "What is the LEAD() function?",
+    "answer": "LEAD() accesses data from a subsequent row without using a self-join."
+  },
+  {
+    "category": "sql",
+    "question": "What is the LAG() function?",
+    "answer": "LAG() accesses data from a previous row without using a self-join."
+  },
+  {
+    "category": "sql",
+    "question": "What is a Common Table Expression (CTE)?",
+    "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
+  },
+  {
+    "category": "sql",
+    "question": "What are the advantages of CTEs?",
+    "answer": "CTEs improve readability, simplify complex queries, and support recursion."
+  },
+  {
+    "category": "sql",
+    "question": "What is a recursive CTE?",
+    "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
+  },
+  {
+    "category": "sql",
+    "question": "What is a stored procedure?",
+    "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database."
+  },
+  {
+    "category": "sql",
+    "question": "What are the advantages of stored procedures?",
+    "answer": "Stored procedures improve performance, security, code reuse, and maintainability."
+  },
+  {
+    "category": "sql",
+    "question": "What is a user-defined function (UDF)?",
+    "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
+  },
+  {
+    "category": "sql",
+    "question": "What is a trigger in SQL?",
+    "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
+  },
+  {
+    "category": "sql",
+    "question": "What are common uses of triggers?",
+    "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+  },
+  {
+    "category": "sql",
+    "question": "What is an execution plan?",
+    "answer": "An execution plan describes how the database engine executes a SQL query."
+  },
+  {
+    "category": "sql",
+    "question": "Why are execution plans important?",
+    "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
+  },
+  {
+    "category": "sql",
+    "question": "What is query optimization?",
+    "answer": "Query optimization is the process of selecting the most efficient strategy for executing a SQL query."
+  },
+  {
+    "category": "sql",
+    "question": "What is SQL injection?",
+    "answer": "SQL injection is a security vulnerability where malicious SQL code is inserted into application inputs and executed by the database."
+  },
+  {
+    "category": "sql",
+    "question": "How can SQL injection be prevented?",
+    "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
+  },
+  {
+    "category": "sql",
+    "question": "What is table partitioning?",
+    "answer": "Table partitioning divides a large table into smaller logical pieces while maintaining it as a single table."
+  },
+  {
+    "category": "sql",
+    "question": "What are the benefits of partitioning?",
+    "answer": "Partitioning improves query performance, manageability, and maintenance of large datasets."
+  },
+  {
+    "category": "sql",
+    "question": "What are the key factors for SQL performance tuning?",
+    "answer": "Proper indexing, optimized queries, efficient joins, partitioning, updated statistics, and execution plan analysis."
+  }
+]

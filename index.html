@@ -159,22 +159,15 @@
         async function loadDailyQuiz() {
             try {
                 // Fetch the static JSON updated by GitHub Actions
-                // Falling back to a local check if assets folder hasn't built yet
                 let response = await fetch('./assets/daily_questions.json');
                 
-                // For direct local execution fallback testing if assets don't exist yet
                 if (!response.ok) {
-                    response = await fetch('./data/question_bank.json');
-                    const rawData = await response.json();
-                    // Just flatten the pool for fallback demonstration
-                    questions = Object.values(rawData).flat().slice(0, 10);
-                    document.getElementById('quiz-date').innerText = "Daily Quiz (Local Preview)";
-                    document.getElementById('quiz-subtitle').innerText = "Showing raw question bank preview. Set up GitHub Actions to enable midnight automation!";
+                    throw new Error('Daily quiz file not found');
                 } else {
                     const data = await response.json();
                     questions = data.questions;
                     document.getElementById('quiz-date').innerText = `Daily Quiz (${data.date})`;
-                    document.getElementById('quiz-subtitle').innerText = "10 fresh questions picked across Core Computer Science topics.";
+                    document.getElementById('quiz-subtitle').innerText = "16 fresh questions picked across 8 FAANG interview topics.";
                 }
                 
                 renderCard();

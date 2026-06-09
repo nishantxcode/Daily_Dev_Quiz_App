@@ -1,0 +1,502 @@
+[
+  {
+    "category": "networking",
+    "question": "What is a computer network?",
+    "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
+  },
+  {
+    "category": "networking",
+    "question": "What are the main types of computer networks?",
+    "answer": "LAN, MAN, WAN, PAN, and CAN."
+  },
+  {
+    "category": "networking",
+    "question": "What is a LAN?",
+    "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
+  },
+  {
+    "category": "networking",
+    "question": "What is a WAN?",
+    "answer": "A Wide Area Network (WAN) connects devices across large geographical distances."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Internet?",
+    "answer": "The Internet is a global network of interconnected computer networks that communicate using the TCP/IP protocol suite."
+  },
+  {
+    "category": "networking",
+    "question": "What is a protocol?",
+    "answer": "A protocol is a set of rules that governs communication between network devices."
+  },
+  {
+    "category": "networking",
+    "question": "What is the OSI model?",
+    "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+  },
+  {
+    "category": "networking",
+    "question": "What are the seven layers of the OSI model?",
+    "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Physical Layer of the OSI model?",
+    "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Data Link Layer?",
+    "answer": "The Data Link Layer provides node-to-node communication and error detection."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Network Layer?",
+    "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Transport Layer?",
+    "answer": "The Transport Layer provides end-to-end communication, reliability, and flow control."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Session Layer?",
+    "answer": "The Session Layer establishes, manages, and terminates communication sessions."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Presentation Layer?",
+    "answer": "The Presentation Layer handles data translation, encryption, and compression."
+  },
+  {
+    "category": "networking",
+    "question": "What is the Application Layer?",
+    "answer": "The Application Layer provides network services directly to end-user applications."
+  },
+  {
+    "category": "networking",
+    "question": "What is the TCP/IP model?",
+    "answer": "The TCP/IP model is the practical networking model used on the Internet."
+  },
+  {
+    "category": "networking",
+    "question": "What are the layers of the TCP/IP model?",
+    "answer": "Application, Transport, Internet, and Network Access layers."
+  },
+  {
+    "category": "networking",
+    "question": "How does the TCP/IP model differ from the OSI model?",
+    "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
+  },
+  {
+    "category": "networking",
+    "question": "What is an IP address?",
+    "answer": "An IP address is a unique logical identifier assigned to a device on a network."
+  },
+  {
+    "category": "networking",
+    "question": "What is IPv4?",
+    "answer": "IPv4 is a 32-bit addressing scheme that supports approximately 4.3 billion unique addresses."
+  },
+  {
+    "category": "networking",
+    "question": "What is IPv6?",
+    "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between IPv4 and IPv6?",
+    "answer": "IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses and supports a vastly larger address space."
+  },
+  {
+    "category": "networking",
+    "question": "What is a MAC address?",
+    "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between an IP address and a MAC address?",
+    "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+  },
+  {
+    "category": "networking",
+    "question": "What is subnetting?",
+    "answer": "Subnetting is the process of dividing a network into smaller logical subnetworks to improve efficiency and management."
+  },
+  {
+    "category": "networking",
+    "question": "What is a subnet mask?",
+    "answer": "A subnet mask is a 32-bit value used to separate the network portion and host portion of an IP address."
+  },
+  {
+    "category": "networking",
+    "question": "What is CIDR?",
+    "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
+  },
+  {
+    "category": "networking",
+    "question": "What is a port number?",
+    "answer": "A port number is a logical communication endpoint used by transport layer protocols."
+  },
+  {
+    "category": "networking",
+    "question": "What is the range of well-known ports?",
+    "answer": "Well-known ports range from 0 to 1023."
+  },
+  {
+    "category": "networking",
+    "question": "What is TCP?",
+    "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
+  },
+  {
+    "category": "networking",
+    "question": "What is UDP?",
+    "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between TCP and UDP?",
+    "answer": "TCP provides reliable, ordered delivery with error recovery, whereas UDP provides faster communication without guaranteed delivery."
+  },
+  {
+    "category": "networking",
+    "question": "What is a TCP connection?",
+    "answer": "A TCP connection is a reliable communication session established between two endpoints."
+  },
+  {
+    "category": "networking",
+    "question": "What is the TCP three-way handshake?",
+    "answer": "The TCP three-way handshake establishes a connection using SYN, SYN-ACK, and ACK messages."
+  },
+  {
+    "category": "networking",
+    "question": "What is the purpose of the TCP three-way handshake?",
+    "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+  },
+  {
+    "category": "networking",
+    "question": "What is the TCP four-way handshake?",
+    "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+  },
+  {
+    "category": "networking",
+    "question": "What is flow control in TCP?",
+    "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
+  },
+  {
+    "category": "networking",
+    "question": "What is a sliding window?",
+    "answer": "A sliding window is a TCP mechanism used to control the amount of unacknowledged data in transit."
+  },
+  {
+    "category": "networking",
+    "question": "What is error detection in networking?",
+    "answer": "Error detection identifies corrupted data during transmission using techniques such as checksums and CRC."
+  },
+  {
+    "category": "networking",
+    "question": "What is DNS?",
+    "answer": "Domain Name System (DNS) translates human-readable domain names into IP addresses."
+  },
+  {
+    "category": "networking",
+    "question": "Why is DNS required?",
+    "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+  },
+  {
+    "category": "networking",
+    "question": "What is a DNS server?",
+    "answer": "A DNS server stores and provides domain name resolution information."
+  },
+  {
+    "category": "networking",
+    "question": "What is DHCP?",
+    "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
+  },
+  {
+    "category": "networking",
+    "question": "What is the purpose of DHCP?",
+    "answer": "DHCP simplifies network administration by automatically configuring devices."
+  },
+  {
+    "category": "networking",
+    "question": "What is ARP?",
+    "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
+  },
+  {
+    "category": "networking",
+    "question": "What is an ARP request?",
+    "answer": "An ARP request is a broadcast message asking for the MAC address associated with a specific IP address."
+  },
+  {
+    "category": "networking",
+    "question": "What is an ARP reply?",
+    "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
+  },
+  {
+    "category": "networking",
+    "question": "What is NAT?",
+    "answer": "Network Address Translation (NAT) translates private IP addresses into public IP addresses and vice versa."
+  },
+  {
+    "category": "networking",
+    "question": "Why is NAT used?",
+    "answer": "NAT conserves public IP addresses and enhances security by hiding internal network addresses."
+  },
+  {
+    "category": "networking",
+    "question": "What is PAT?",
+    "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
+  },
+  {
+    "category": "networking",
+    "question": "What is routing?",
+    "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
+  },
+  {
+    "category": "networking",
+    "question": "What is a router?",
+    "answer": "A router is a networking device that forwards packets between different networks based on IP addresses."
+  },
+  {
+    "category": "networking",
+    "question": "What is a routing table?",
+    "answer": "A routing table is a data structure that stores routes and forwarding information used by routers."
+  },
+  {
+    "category": "networking",
+    "question": "What is static routing?",
+    "answer": "Static routing uses manually configured routes that do not change automatically."
+  },
+  {
+    "category": "networking",
+    "question": "What is dynamic routing?",
+    "answer": "Dynamic routing automatically discovers and updates routes using routing protocols."
+  },
+  {
+    "category": "networking",
+    "question": "What is RIP?",
+    "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+  },
+  {
+    "category": "networking",
+    "question": "What is OSPF?",
+    "answer": "Open Shortest Path First (OSPF) is a link-state routing protocol that calculates shortest paths using Dijkstra's algorithm."
+  },
+  {
+    "category": "networking",
+    "question": "What is BGP?",
+    "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
+  },
+  {
+    "category": "networking",
+    "question": "What is a switch?",
+    "answer": "A switch is a network device that forwards frames within a LAN using MAC addresses."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between a hub and a switch?",
+    "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
+  },
+  {
+    "category": "networking",
+    "question": "What is VLAN?",
+    "answer": "A Virtual Local Area Network (VLAN) logically divides a physical network into separate broadcast domains."
+  },
+  {
+    "category": "networking",
+    "question": "What is a broadcast domain?",
+    "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+  },
+  {
+    "category": "networking",
+    "question": "What is a collision domain?",
+    "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
+  },
+  {
+    "category": "networking",
+    "question": "What is HTTP?",
+    "answer": "Hypertext Transfer Protocol (HTTP) is an application-layer protocol used for web communication."
+  },
+  {
+    "category": "networking",
+    "question": "What is HTTPS?",
+    "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
+  },
+  {
+    "category": "networking",
+    "question": "What is the default port number for HTTP?",
+    "answer": "The default port number for HTTP is 80."
+  },
+  {
+    "category": "networking",
+    "question": "What is the default port number for HTTPS?",
+    "answer": "The default port number for HTTPS is 443."
+  },
+  {
+    "category": "networking",
+    "question": "What is SSL?",
+    "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
+  },
+  {
+    "category": "networking",
+    "question": "What is TLS?",
+    "answer": "Transport Layer Security (TLS) is the modern and more secure successor to SSL."
+  },
+  {
+    "category": "networking",
+    "question": "What is encryption?",
+    "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
+  },
+  {
+    "category": "networking",
+    "question": "What is symmetric encryption?",
+    "answer": "Symmetric encryption uses the same key for both encryption and decryption."
+  },
+  {
+    "category": "networking",
+    "question": "What is asymmetric encryption?",
+    "answer": "Asymmetric encryption uses a public key for encryption and a private key for decryption."
+  },
+  {
+    "category": "networking",
+    "question": "What is a digital certificate?",
+    "answer": "A digital certificate verifies the identity of a website or entity and contains its public key."
+  },
+  {
+    "category": "networking",
+    "question": "What is the TLS handshake?",
+    "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+  },
+  {
+    "category": "networking",
+    "question": "What is a proxy server?",
+    "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
+  },
+  {
+    "category": "networking",
+    "question": "What is congestion in a network?",
+    "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
+  },
+  {
+    "category": "networking",
+    "question": "What is congestion control?",
+    "answer": "Congestion control is the set of techniques used to prevent and manage network congestion."
+  },
+  {
+    "category": "networking",
+    "question": "What is TCP congestion control?",
+    "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
+  },
+  {
+    "category": "networking",
+    "question": "What is the congestion window (cwnd)?",
+    "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
+  },
+  {
+    "category": "networking",
+    "question": "What is Slow Start in TCP?",
+    "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
+  },
+  {
+    "category": "networking",
+    "question": "What is Congestion Avoidance?",
+    "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
+  },
+  {
+    "category": "networking",
+    "question": "What is Fast Retransmit?",
+    "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
+  },
+  {
+    "category": "networking",
+    "question": "What is Fast Recovery?",
+    "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
+  },
+  {
+    "category": "networking",
+    "question": "What is a firewall?",
+    "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
+  },
+  {
+    "category": "networking",
+    "question": "What is the purpose of a firewall?",
+    "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
+  },
+  {
+    "category": "networking",
+    "question": "What is a packet-filtering firewall?",
+    "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
+  },
+  {
+    "category": "networking",
+    "question": "What is a stateful firewall?",
+    "answer": "A stateful firewall tracks the state of active connections and makes filtering decisions accordingly."
+  },
+  {
+    "category": "networking",
+    "question": "What is an IDS?",
+    "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+  },
+  {
+    "category": "networking",
+    "question": "What is an IPS?",
+    "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between IDS and IPS?",
+    "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
+  },
+  {
+    "category": "networking",
+    "question": "What is a VPN?",
+    "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
+  },
+  {
+    "category": "networking",
+    "question": "Why is a VPN used?",
+    "answer": "A VPN provides privacy, secure communication, and remote access to private networks."
+  },
+  {
+    "category": "networking",
+    "question": "What is Quality of Service (QoS)?",
+    "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+  },
+  {
+    "category": "networking",
+    "question": "What is load balancing?",
+    "answer": "Load balancing distributes incoming network traffic across multiple servers to improve performance and availability."
+  },
+  {
+    "category": "networking",
+    "question": "What is a Content Delivery Network (CDN)?",
+    "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+  },
+  {
+    "category": "networking",
+    "question": "What is packet switching?",
+    "answer": "Packet switching divides data into packets that are transmitted independently through a network."
+  },
+  {
+    "category": "networking",
+    "question": "What is circuit switching?",
+    "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+  },
+  {
+    "category": "networking",
+    "question": "What is the difference between packet switching and circuit switching?",
+    "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
+  },
+  {
+    "category": "networking",
+    "question": "What is a socket in networking?",
+    "answer": "A socket is an endpoint for communication between two processes over a network."
+  },
+  {
+    "category": "networking",
+    "question": "What are the key factors in diagnosing network issues?",
+    "answer": "Checking connectivity, DNS resolution, routing, latency, packet loss, bandwidth utilization, and firewall configurations."
+  }
+]
