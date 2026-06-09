@@ -2,8 +2,8 @@ name: Generate Daily Flashcards
 
 on:
   schedule:
-    # Runs at 00:00 UTC every single day
-    - cron: '0 0 * * *'
+    # Runs at 00:00 IST every single day (18:30 UTC)
+    - cron: '30 18 * * *'
   workflow_dispatch: # Allows you to manually trigger it from the GitHub UI for testing
 
 permissions:
