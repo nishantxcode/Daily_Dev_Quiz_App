@@ -7,6 +7,8 @@ from datetime import datetime, timezone, timedelta
 QUESTION_FILES = {
     "dbms": "assets/dbms_100_questions.json",
     "dsa": "assets/dsa_100_questions.json",
+    "hr": "assets/hr_100_questions.json",
+    "java": "assets/java_100_questions.json",
     "networking": "assets/networking_100_questions.json",
     "oop": "assets/oop_100_questions.json",
     "os": "assets/os_100_questions.json",

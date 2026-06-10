@@ -3,83 +3,103 @@
   "questions": [
     {
       "category": "dbms",
-      "question": "What are the advantages of normalization?",
-      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+      "question": "What is data independence?",
+      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
     },
     {
-      "category": "os",
-      "question": "What happens if the time quantum is too small?",
-      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
-    },
-    {
-      "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+      "category": "hr",
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
     },
     {
       "category": "networking",
-      "question": "What is Slow Start in TCP?",
-      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
-    },
-    {
-      "category": "python",
-      "question": "Is Python compiled or interpreted?",
-      "answer": "Python is primarily interpreted, although it compiles source code into bytecode before execution by the Python Virtual Machine."
-    },
-    {
-      "category": "dsa",
-      "question": "What are the most important factors when choosing a data structure?",
-      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
+      "question": "What are the seven layers of the OSI model?",
+      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
     },
     {
       "category": "system_design",
-      "question": "What are common load balancing algorithms?",
-      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
+      "question": "What is Consistency in CAP?",
+      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between identity and equality?",
+      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 75",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What does MAX() do?",
+      "answer": "MAX() returns the largest value in a column."
+    },
+    {
+      "category": "python",
+      "question": "What are the key features of Python?",
+      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
+    },
+    {
+      "category": "sql",
+      "question": "What is a FULL OUTER JOIN?",
+      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Data Link Layer?",
+      "answer": "The Data Link Layer provides node-to-node communication and error detection."
+    },
+    {
+      "category": "dsa",
+      "question": "What is level order traversal?",
+      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
+    },
+    {
+      "category": "python",
+      "question": "What is a conditional statement in Python?",
+      "answer": "A conditional statement executes code based on whether a specified condition evaluates to true or false."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 33",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What are the advantages of virtual memory?",
+      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
+    },
+    {
+      "category": "oop",
+      "question": "Why is encapsulation important?",
+      "answer": "Encapsulation improves security, maintainability, and modularity by hiding implementation details."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a deque?",
+      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 49",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is consistent hashing used?",
+      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
     },
     {
       "category": "dbms",
-      "question": "What is a functional dependency?",
-      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
+      "question": "What is a database?",
+      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
     },
     {
-      "category": "oop",
-      "question": "What is a parameterized constructor?",
-      "answer": "A parameterized constructor accepts arguments to initialize object state."
-    },
-    {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an AVL tree?",
-      "answer": "An AVL tree is a self-balancing Binary Search Tree in which the height difference between left and right subtrees is at most one."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
-    },
-    {
-      "category": "networking",
-      "question": "What is a port number?",
-      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
-    },
-    {
-      "category": "system_design",
-      "question": "What is scalability?",
-      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between a list and a tuple?",
-      "answer": "Lists are mutable, whereas tuples are immutable."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+      "category": "os",
+      "question": "What is the LRU page replacement algorithm?",
+      "answer": "LRU replaces the page that has not been used for the longest period of time."
     }
   ]
 }

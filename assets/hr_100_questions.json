@@ -1,0 +1,502 @@
+[
+  {
+    "category": "hr",
+    "question": "Tell me about yourself.",
+    "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
+  },
+  {
+    "category": "hr",
+    "question": "Why do you want to work for our company?",
+    "answer": "Demonstrate knowledge of the company's products, culture, values, and explain how they align with your career goals."
+  },
+  {
+    "category": "hr",
+    "question": "Why should we hire you?",
+    "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+  },
+  {
+    "category": "hr",
+    "question": "What are your greatest strengths?",
+    "answer": "Mention strengths relevant to the role and support them with specific examples."
+  },
+  {
+    "category": "hr",
+    "question": "What is your biggest weakness?",
+    "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
+  },
+  {
+    "category": "hr",
+    "question": "Where do you see yourself in five years?",
+    "answer": "Show ambition while aligning your growth plans with the company's opportunities."
+  },
+  {
+    "category": "hr",
+    "question": "What motivates you?",
+    "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
+  },
+  {
+    "category": "hr",
+    "question": "Why are you looking for a new opportunity?",
+    "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
+  },
+  {
+    "category": "hr",
+    "question": "Describe your ideal work environment.",
+    "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
+  },
+  {
+    "category": "hr",
+    "question": "What do you know about our company?",
+    "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
+  },
+  {
+    "category": "hr",
+    "question": "How do you handle pressure?",
+    "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+  },
+  {
+    "category": "hr",
+    "question": "What is your greatest professional achievement?",
+    "answer": "Share a measurable accomplishment and explain the impact it created."
+  },
+  {
+    "category": "hr",
+    "question": "What are your career goals?",
+    "answer": "Discuss both short-term learning goals and long-term leadership or specialization goals."
+  },
+  {
+    "category": "hr",
+    "question": "How would your colleagues describe you?",
+    "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
+  },
+  {
+    "category": "hr",
+    "question": "What makes you different from other candidates?",
+    "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
+  },
+  {
+    "category": "hr",
+    "question": "Tell me about a time you failed.",
+    "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
+  },
+  {
+    "category": "hr",
+    "question": "How do you prioritize your work?",
+    "answer": "Explain how you assess urgency, impact, deadlines, and dependencies when managing tasks."
+  },
+  {
+    "category": "hr",
+    "question": "What do you do when you don't know how to solve a problem?",
+    "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
+  },
+  {
+    "category": "hr",
+    "question": "Describe a challenging situation you faced and how you handled it.",
+    "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
+  },
+  {
+    "category": "hr",
+    "question": "How do you handle criticism?",
+    "answer": "View feedback as an opportunity to improve and take actionable steps based on it."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 21",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 22",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 23",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 24",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 25",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 26",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 27",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 28",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 29",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 30",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 31",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 32",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 33",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 34",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 35",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 36",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 37",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 38",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 39",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 40",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 41",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 42",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 43",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 44",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 45",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 46",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 47",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 48",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 49",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 50",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 51",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 52",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 53",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 54",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 55",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 56",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 57",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 58",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 59",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 60",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 61",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 62",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 63",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 64",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 65",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 66",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 67",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 68",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 69",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 70",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 71",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 72",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 73",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 74",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 75",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 76",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 77",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 78",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 79",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 80",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 81",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 82",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 83",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 84",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 85",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 86",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 87",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 88",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 89",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 90",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 91",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 92",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 93",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 94",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 95",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 96",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 97",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 98",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 99",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  },
+  {
+    "category": "hr",
+    "question": "HR Interview Question 100",
+    "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+  }
+]
